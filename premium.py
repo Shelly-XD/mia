@@ -39,7 +39,12 @@ def banner():
   \__ \/ __ \/ _ \/ / / / / /
  ___/ / / / /  __/ / / /_/ /
 /____/_/ /_/\___/_/_/\__, /
-                    /____/  _  __®""")
+                    /____/ 
+  . __  ____
+   /  |/  (_)___ _®. ➣ Author : Shelly X Noah
+  / /|_/ / / __ `/.  ➣ GitHub : https://github.com/Shelly-XD
+ / /  / / / /_/ /
+/_/  /_/_/\__,_/""")
 
 host="https://mbasic.facebook.com"
 ok = []
