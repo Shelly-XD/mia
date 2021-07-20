@@ -30,7 +30,7 @@ else:
         O = ""
         R = ""
 
-### HEADERS ###
+### LOGO ###
 
 logo =
 
@@ -50,7 +50,6 @@ _____ __         ____
   / /|_/ / / __ `/
  / /  / / / /_/ /
 /_/  /_/_/\__,_/
-   
 """
 
 host="https://mbasic.facebook.com"
