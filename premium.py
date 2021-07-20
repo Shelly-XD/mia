@@ -129,7 +129,7 @@ def gets_dict_cookies(cookies):
 
 def country():
     os.system("clear")
-    print logo()
+    print logo
     print("\n%s[%s Choose Country %s]\n"%(k,p,k))
     print("%s[%s1%s] %sIndonesia"%(k,p,k,p))
     print("%s[%s2%s] %sBangladesh/India"%(k,p,k,p))
@@ -199,7 +199,7 @@ def choose_country():
 
 def logs():
   os.system("clear")
-  print logo()
+  print logo
   print((k+"\n["+p+"1"+k+"]"+p+" Login Token"))
   print((k+"["+p+"2"+k+"]"+p+" Login Cookies"))
   print((k+"["+p+"0"+k+"]"+p+" Exit"))
@@ -221,7 +221,7 @@ def logs():
 
 def log_token():
     os.system("clear")
-    print logo()
+    print logo
     toket = input(k+"\n["+p+"•"+k+"]"+p+" Token : ")
     try:
         otw = requests.get("https://graph.facebook.com/me?access_token=" + toket)
@@ -239,7 +239,7 @@ def log_token():
 
 def gen():
         os.system("clear")
-        print logo()
+        print logo
         cookie = input(k+"\n["+p+"•"+k+"]"+p+" Cookies : ")
         try:
                 data = requests.get("https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_", headers = {
@@ -334,7 +334,7 @@ def menu():
     elif " " in ngr:
         negara = "None"
     os.system("clear")
-    print logo()
+    print logo
     print((k+"\n[ "+p+"Welcome "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"•"+k+"]"+p+" Your ID : "+id))
     print((k+"["+p+"•"+k+"]"+p+" Your IP : "+ip))
@@ -818,7 +818,7 @@ def f_fb(em,pas,hosts):
 
 class crack:
 	os.system("clear")
-	print logo()
+	print logo
 	def __init__(self,isifile):
 		self.ada=[]
 		self.cp=[]
@@ -907,7 +907,7 @@ class crack:
 
 class crackttl:
 	os.system("clear")
-	print logo()
+	print logo
 	def __init__(self,isifile):
 		self.ada=[]
 		self.cp=[]
@@ -1004,7 +1004,7 @@ class crackttl:
 
 class crackffb:
 	os.system("clear")
-	print logo()
+	print logo
 	def __init__(self,isifile):
 		self.ada=[]
 		self.cp=[]
@@ -1329,7 +1329,7 @@ def results(Dapunta,Krahkrah):
 
 def ress():
     os.system("clear")
-    print logo()
+    print logo
     print((k+"\n[ "+p+"Result Crack"+k+" ]"+p))
     print((h+"\n[ "+p+"OK"+h+" ]"+p))
     try:
