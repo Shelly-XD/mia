@@ -40,7 +40,9 @@ def banner():
  /        \    Y    /        \|    |___|    |___ \____   |
 /_______  /\___|_  /_______  /|_______ \_______ \/ ______|
         \/       \/        \/         \/       \/\/
-   [•] Github    : https://github.com/Shelly-XD
+
+
+   
    [•] Di Recode : Shelly X Noah X Mia
 """)
 
