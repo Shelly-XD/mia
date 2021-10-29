@@ -4,6 +4,7 @@
 
 import sys,os,requests,json,time
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
+from premium import premium
 
 def banner():
     print("""
