@@ -336,6 +336,7 @@ def menu():
     print((k+"["+p+"6"+k+"]"+p+" Get Data Target"))
     print((k+"["+p+"7"+k+"]"+p+" Result Crack"))
     print((k+"["+p+"8"+k+"]"+p+" User Agent"))
+    print((k+"["+p+"9"+k+"]"+p+" Cek Fl Old/New"))  
     print((k+"["+p+"0"+k+"]"+p+" Logout"))
     choose_menu()
 
@@ -360,6 +361,8 @@ def choose_menu():
 		ress()
 	elif r=="8":
 		menu_user_agent()
+        elif r=="9":
+                dump_id_public
 	elif r=="0":
 		try:
 			jalan(k+"\n["+p+"•"+k+"]"+p+" Thanks For Using My Script")
