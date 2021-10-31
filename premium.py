@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
 
-
-import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json,dump_id_public
+import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json
 from random import randint
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from datetime import date
@@ -34,11 +33,11 @@ else:
 
 def banner():
     print("""
-\x1b[0;36m ___ ___ ___ __  __ ___ _   _ __  __   \x1b[0;36m|
-\x1b[0;36m| _ \ _ \ __|  \/  |_ _| | | |  \/  |  \x1b[0;36m| \x1b[0;36mau \x1b[0;36m: \x1b[0;36mShelly
-\x1b[0;37m|  _/   / _|| |\/| || || |_| | |\/| |  | 
-\x1b[0;37m|_| |_|_\___|_|  |_|___|\___/|_|  |_|  |
-\x1b[0;36m \x1b[0;36m  \x1b[0;37m
+ ___ ___ ___ __  __ ___ _   _ __  __   |
+| _ \ _ \ __|  \/  |_ _| | | |  \/  |  | au : Shelly
+\x1b[0;32m|  _/   / _|| |\/| || || |_| | |\/| |  | 
+\x1b[0;32m|_| |_|_\___|_|  |_|___|\___/|_|  |_|  |
+\x1b[0;32m \x1b[0;36m  \x1b[0;37m
 """)
 
 host="https://mbasic.facebook.com"
