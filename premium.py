@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
-# Made With ❤️ By Dapunta
+
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json,dump_id_public
 from random import randint
@@ -34,16 +34,15 @@ else:
 
 def banner():
     print("""
-  _________ ___ ______________.____    .____    _____.___.®
- /   _____//   |   \_   _____/|    |   |    |   \__  |   |
- \_____  \/    ~    \    __)_ |    |   |    |    /   |   |
- /        \    Y    /        \|    |___|    |___ \____   |
-/_______  /\___|_  /_______  /|_______ \_______ \/ ______|
-        \/       \/        \/         \/       \/\/
-
-
-   
-   [•] Di Recode : Shelly X Noah X Mia
+\x1b[1;92m ___ ___ ___ __  __ ___ _   _ __  __
+\x1b[1;92m| _ \ _ \ __|  \/  |_ _| | | |  \/  |
+\x1b[1;96m|  _/   / _|| |\/| || || |_| | |\/| |
+\x1b[1;96m|_| |_|_\___|_|  |_|___|\___/|_|  |_|
+\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m——————————————————————————————
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m au : Shelly
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m 
+\x1b[1;95m[\x1b[1;97m•\x1b[1;95m]\x1b[1;97m 
+\x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m
 """)
 
 host="https://mbasic.facebook.com"
