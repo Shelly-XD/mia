@@ -7,8 +7,6 @@ from random import randint
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from datetime import date
 from datetime import datetime
-from dump_id_public import dump_id_public
-from dump_id_public import dump_id_public
 current = datetime.now()
 
 p = "\x1b[0;37m" # putih
