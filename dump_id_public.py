@@ -2,16 +2,8 @@
 #-*-coding:utf-8-*-
 # Made With ❤️ By Dapunta
 
-import sys,os,requests,json,time
+import sys,os,requests,json,time,premium
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
-from premium import premium
-
-def banner():
-    print("""
-  ___ ___    _    ___ ___ _____ 
- |_ _|   \  | |  |_ _/ __|_   _|
-  | || |) | | |__ | |\__ \ | |  
- |___|___/  |____|___|___/ |_|  """)
 
 def jalan(z):
 	for e in z + "\n":
@@ -48,7 +40,6 @@ def menu():
         jalan("\n[!] Token Invalid")
         login()
     os.system('clear')
-    banner()
     print("\n[1] Get ID From Friendlist")
     print("[2] Get ID From Public")
     print("[3] Get ID From Followers")
