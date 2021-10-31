@@ -337,8 +337,6 @@ def choose_menu():
 		ress()
 	elif r=="8":
 		menu_user_agent()
-        elif r=="9":
-                dump_id_public()
 	elif r=="0":
 		try:
 			jalan(k+"\n["+p+"•"+k+"]"+p+" Thanks For Using My Script")
