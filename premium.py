@@ -2,6 +2,7 @@
 #-*-coding:utf-8-*-
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json
+import dump_fl
 from random import randint
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from datetime import date
@@ -331,6 +332,8 @@ def choose_menu():
 		ress()
 	elif r=="8":
 		menu_user_agent()
+        elif r=="9":
+                exit(dump_fl.dumpfl.())
 	elif r=="0":
 		try:
 			jalan(k+"\n["+p+"•"+k+"]"+p+" Thanks For Using My Script")
